@@ -1,0 +1,26 @@
+TP2 DM
+
+Etape 5
+
+
+Etape 13
+	Q1 : 
+	Q2 : @GetMapping("/greeting") ?
+	Q3 : model.addAttribute("nomTemplate", nameGET);
+
+Etape 17
+	Une table Adress apparait avec les colones ID, CONTENT, et CREATION
+
+Etape 18
+	En s'appuyant sur els annotations @Entity pour table, @Id pour colonne, Hibernate arrive à
+	créer et configurer les tables dans une base de données.
+
+Etape 20
+	On remarque que les requetes sql ont bienété prises en charge et la table a été bien remplie
+	par le contenu de data.sql
+
+Etape 23
+	@Autowired est appelée avec AddresseRepository quand l'instance de AddresseController est créée
+	
+
+ 
